@@ -143,6 +143,7 @@ body{
 
 .navbar-light .navbar-brand{
 	color:  #df69b3;	
+	transition: 0.3s ease-in-out
 }
 
 .navbar{
@@ -221,7 +222,7 @@ a.nav-contacto{
 	background: white;
 	position: fixed;
 	right: 0;
-	bottom: 40%;
+	bottom: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -253,7 +254,7 @@ a.nav-contacto{
 }
 
 .content-kine__tittle h3{
-	font-size: 60px;
+	font-size: 80px;
 	margin-bottom: 40px;
 	font-family: 'Great Vibes', cursive;
 
@@ -476,8 +477,8 @@ a.nav-contacto{
 }
 
 .container-form{
-	width: 31%;
-    margin-left: 90px;
+	width: 40%;
+    margin-left: 50px;
     text-align: center;
 }
 
@@ -553,6 +554,12 @@ a.nav-contacto{
 	border: none;
 	box-shadow: 0 0 0;
 }
+.navbar-light .navbar-toggler{
+	border: none;
+}
+button:focus{
+	outline: none;
+}
 
 @media (min-width: 992px){
 .container {
@@ -580,6 +587,7 @@ a.nav-contacto{
 	.main-banner__img img{
 		width: 100%;
 		height: 100%;
+		object-fit: cover ;
 	}
 	.main-banner .mask .main-banner__boxtext{
 		height: 100%;
@@ -610,6 +618,7 @@ a.nav-contacto{
 
 	.content-kine__tittle h3{
 		text-align: center;
+		margin-bottom: 0;
 	}	
 	.content-kine__text{
 		width: 100%;
@@ -622,6 +631,7 @@ a.nav-contacto{
 		margin: 0;
 		text-align: center;
 		padding: 15px 0;
+		padding-top: 30px;
 	}
 	.text-mision{
 		width: 100%;
@@ -682,12 +692,14 @@ a.nav-contacto{
 	}
 	.servicios h3{
 		text-align: center;
+		margin: 30px auto;
 	}
 	.container-servicios{
 		display: none;
 	}
 	.slide-servicio{
 		display: block;
+		padding-bottom: 20px;
 	}
 	.container-contactanos h3{
 		font-size: 35px;
