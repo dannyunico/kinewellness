@@ -94,9 +94,18 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../fonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../fonts/GreatVibes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 body{
-font-family: 'Vision';	
+	font-family: 'Vision';	
 }
 
 .bg-light{
@@ -124,6 +133,10 @@ font-family: 'Vision';
 	right: 90px;
 }
 
+.navbar-brand{
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+}
 
 .navbar{
 	width: 100%;
@@ -139,11 +152,14 @@ font-family: 'Vision';
 	border-top: 1px solid #df69b3;
     width: 50%;
     margin: auto;
-
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black;
 }
 
 a.nav-contacto{
 	color:  #df69b3 !important;
+	font-weight: bold;
 }
 
 .main-banner {
@@ -170,7 +186,7 @@ a.nav-contacto{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 60%;
+	height: 80%;
 }
 .main-banner__img{
 	height: 100%;
@@ -198,7 +214,7 @@ a.nav-contacto{
 	background: white;
 	position: fixed;
 	right: 0;
-	bottom: 50%;
+	bottom: 40%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -230,9 +246,10 @@ a.nav-contacto{
 }
 
 .content-kine__tittle h3{
-	font-size: 40px;
-	font-weight: bold;
+	font-size: 60px;
 	margin-bottom: 40px;
+	font-family: 'Great Vibes', cursive;
+
 }
 
 .content-kine__tittle {
@@ -309,7 +326,7 @@ a.nav-contacto{
     color: black;
     width: 90%;
     padding: 3px;
-    padding-left: 30px;
+    padding-left: 35px;
     border-radius: 0 10px 10px 0;
 }
 
@@ -379,6 +396,7 @@ a.nav-contacto{
 .text-horario h3{
 	font-size: 3.75rem;
 	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 .text-horario p{
@@ -473,9 +491,12 @@ a.nav-contacto{
 	padding: 60px 0;
 }
 
-.container-footer h2{
+.container-footer h3{
+	font-size: 60px;
+
 	padding-bottom: 30px;
 	border-bottom: 1px solid white;
+	font-family: 'Great Vibes', cursive;
 }
 
 .footer-enlaces a{
@@ -593,6 +614,9 @@ a.nav-contacto{
 	.cartas-programas__img{
 		height: 350px;
 	}
+	.cartas-programas__text p{
+		padding-left: 30px;
+	}
 	.container-contamos{
 		grid-template-columns: 100%;
 		margin: 20px 0;
@@ -626,7 +650,6 @@ a.nav-contacto{
 	}
 	.text-horario h3{
 		font-size: 2.75rem;
-		font-weight: bold;
 	}
 	.form-horario{
 		align-self: normal;
@@ -789,6 +812,9 @@ a.nav-contacto{
 	}
 	.boton-mision{
 		margin-left: 180px;
+	}
+	.cartas-programas__text p{
+		padding-left: 2px;
 	}
 	.content__metodo-pago{
 		text-align: center;
