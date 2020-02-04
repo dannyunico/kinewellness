@@ -138,6 +138,10 @@ body{
 	font-size: 50px;
 }
 
+.navbar-light .navbar-brand{
+	color:  #df69b3;	
+}
+
 .navbar{
 	width: 100%;
 	text-align: center;
@@ -493,7 +497,7 @@ a.nav-contacto{
 
 .container-footer h3{
 	font-size: 60px;
-
+	color:  #df69b3;
 	padding-bottom: 30px;
 	border-bottom: 1px solid white;
 	font-family: 'Great Vibes', cursive;
@@ -519,6 +523,12 @@ a.nav-contacto{
 
 .enlaces-footer__url a{
 	color: white;
+}
+.enlaces-footer__iconos a img{
+	width: 20px;
+}
+.enlaces-footer__iconos .icono-face img{
+	width: 13px
 }
 
 .slide-servicio{
