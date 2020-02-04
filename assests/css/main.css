@@ -1,6 +1,10 @@
 body{
 	font-family: 'Monserrat', sans-serif;
 }
+
+.bg-light{
+	background: white !important;
+}
 .nav-enlaces{
 	display: flex;
 }
@@ -422,8 +426,7 @@ a.nav-contacto{
 	}
 	.navbar{
 		text-align: initial;
-	}
-	.banner{
+		display: flex;
 	}
 	.main-banner__content{
 		height: 100%;
@@ -581,6 +584,7 @@ a.nav-contacto{
 	}
 	.navbar{
 		text-align: initial;
+		display: flex;
 	}
 	.banner{
 		height: 320px !important;
