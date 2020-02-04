@@ -546,6 +546,11 @@ a.nav-contacto{
     left: -72px;
 }
 
+.form-control:focus{
+	border: none;
+	box-shadow: 0 0 0;
+}
+
 @media (min-width: 0px) and (max-width: 767px){
 	.navbar-expand-lg .navbar-collapse{
 		border: none;
