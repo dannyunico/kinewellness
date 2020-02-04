@@ -72,7 +72,7 @@ a.nav-contacto{
 	height: 60%;
 }
 .main-banner__img{
-	height: 60%;
+	height: 100%;
 }
 .main-banner .mask .main-banner__text {
 	width: 88%;
@@ -207,8 +207,8 @@ a.nav-contacto{
     background: white;
     color: black;
     width: 90%;
-    text-align: center;
     padding: 3px;
+    padding-left: 30px;
     border-radius: 0 10px 10px 0;
 }
 
@@ -311,7 +311,7 @@ a.nav-contacto{
 	margin: auto;
 }
 .cartas-servicios:hover{
-	opacity: 0.7;
+	opacity: 0.6;
 
 }
 .cartas-servicio__text {
@@ -367,10 +367,12 @@ a.nav-contacto{
 .container-footer{
 	width: 80%;
 	margin: auto;
-	text-align: center
+	text-align: center;
+	padding: 60px 0;
 }
 
 .container-footer h2{
+	padding-bottom: 30px;
 	border-bottom: 1px solid white;
 }
 
@@ -422,17 +424,16 @@ a.nav-contacto{
 		text-align: initial;
 	}
 	.banner{
-		height: 320px !important;
 	}
 	.main-banner__content{
-		height: 65vh;
+		height: 100%;
 	}
 	.main-banner__item{
-		height: 65vh;
+		height: 100%;
 	}
 	.main-banner__img img{
 		width: 100%;
-		height: 65vh;
+		height: 100%;
 	}
 	.main-banner .mask .main-banner__boxtext{
 		height: 100%;
@@ -452,7 +453,7 @@ a.nav-contacto{
 	}
 
 	.container-kine{
-		height: 600px !important;
+		height: 650px !important;
 	}
 
 	.content-kine__tittle{
