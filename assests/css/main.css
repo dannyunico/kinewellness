@@ -1,5 +1,102 @@
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Regular.woff2') format('woff2'),
+        url('../fonts/Vision-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Vision-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Black.woff2') format('woff2'),
+        url('../fonts/Vision-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Heavy.woff2') format('woff2'),
+        url('../fonts/Vision-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Thin.woff2') format('woff2'),
+        url('../fonts/Vision-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Vision-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-LightItalic.woff2') format('woff2'),
+        url('../fonts/Vision-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Bold.woff2') format('woff2'),
+        url('../fonts/Vision-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Light.woff2') format('woff2'),
+        url('../fonts/Vision-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Vision-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Italic.woff2') format('woff2'),
+        url('../fonts/Vision-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/Vision-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
 body{
-	font-family: 'Monserrat', sans-serif;
+font-family: 'Vision';	
 }
 
 .bg-light{
@@ -315,6 +412,7 @@ a.nav-contacto{
 	margin: auto;
 }
 .cartas-servicios:hover{
+	transition: 0.3s ease-in-out;
 	opacity: 0.6;
 
 }
