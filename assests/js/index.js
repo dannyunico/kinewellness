@@ -3,7 +3,7 @@ $('.slide-servicio').slick({
   slidesToShow: 3,
   slidesToScroll: 2,
   arrows: true,
-   autopla: true,
+   autoplay: true,
 
   responsive: [
     {
