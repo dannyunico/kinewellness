@@ -1,0 +1,615 @@
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Regular.woff2') format('woff2'),
+        url('../fonts/Vision-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Vision-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Black.woff2') format('woff2'),
+        url('../fonts/Vision-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Heavy.woff2') format('woff2'),
+        url('../fonts/Vision-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Thin.woff2') format('woff2'),
+        url('../fonts/Vision-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Vision-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-LightItalic.woff2') format('woff2'),
+        url('../fonts/Vision-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Bold.woff2') format('woff2'),
+        url('../fonts/Vision-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Light.woff2') format('woff2'),
+        url('../fonts/Vision-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Vision-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Italic.woff2') format('woff2'),
+        url('../fonts/Vision-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/Vision-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../fonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../fonts/GreatVibes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #fff !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #9E9E9E;
+  }
+  
+
+html{
+
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Vision';	
+}
+
+.bg-light{
+	background: white !important;
+}
+.nav-enlaces{
+	display: flex;
+}
+
+.nav-enlaces__url{
+	position: absolute;
+	left: 90px;
+}
+
+.nav-enlaces__url a{
+	color:  #df69b3;
+}
+
+.nav-enlaces__url a:hover{
+	text-decoration: none;
+}
+
+.nav-enlaces__iconos{
+	position: absolute;
+	right: 90px;
+}
+
+.navbar-brand{
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+}
+
+.navbar-light .navbar-brand{
+	color:  #df69b3;	
+	transition: 0.3s ease-in-out
+}
+
+.navbar{
+	width: 100%;
+	text-align: center;
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-collapse{
+	border-top: 1px solid #df69b3;
+    width: 50%;
+    margin: auto;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+a.nav-contacto{
+	color:  #df69b3 !important;
+	font-weight: bold;
+}
+
+.main-banner {
+	position: relative;
+	overflow: hidden;
+    height: 100%;
+    margin-top: 125px;
+}
+
+
+.main-banner .main-banner__item {
+	position: relative;
+}
+
+.main-banner .mask {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-banner .mask .main-banner__boxtext {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80%;
+}
+.main-banner__img{
+	height: 100%;
+}
+.main-banner .mask .main-banner__text {
+	width: 88%;
+
+
+}
+.main-banner__title{
+	width: 50%;
+
+}
+
+.main-banner__title h1{
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+
+.boton-banner{
+	width: 50px;
+	height: 65px;
+	border-radius: 10px 0 0 10px;
+	background: white;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+
+.boton-banner a{
+	text-align: center
+}
+
+.boton-banner a img{
+	width: 60%;
+}
+
+.btn-outline-secondary{
+	color: white;
+	border-color: white;
+	padding: 7px 48px;
+    border-radius: 25px;
+}
+
+.container-servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
+    cursor: pointer;
+}
+.cartas-servicios:hover{
+    transition: 0.3s ease-in-out;
+    opacity: 0.6;
+
+}
+.cartas-servicio__text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+ .cartas-servicio__text p{
+    width: 60%;
+    text-align: center;
+ }
+
+ .servicios h3{
+    width: 87%;
+    margin: 50px auto;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.card{
+    border: none;
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:focus, .btn-danger:not(:disabled):not(.disabled).active,
+ .btn-danger:not(:disabled):not(.disabled):active,
+ .show>.btn-danger.dropdown-toggle{
+    background: #df69b3;
+    border: none ;
+    font-weight: bold;
+}
+.slide-servicio .slick-prev:before, .slide-servicio .slick-next:before{
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: #df69b3;
+   
+}
+.servicios.container .btn-danger{
+    margin: 0px 0 30px 80px;
+    padding: 10px 30px;
+    border-radius: 10px
+}
+
+@media (min-width: 992px){
+.container {
+   max-width: 100%;
+   }
+}
+
+
+.container-contamos{
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.content__metodo-pago{
+    margin: auto;
+}
+
+.content__metodo-pago h3{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.content__metodo-pago img{
+    margin: 10px 50px;
+}
+
+.content__seguros p{
+    margin: 38px 0;
+}
+
+.seguros__img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+}
+
+.seguros__img img{
+    width: 200px;
+    margin: auto;
+}
+
+.footer{
+    background: black;
+}
+
+
+.container-footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.container-footer h3{
+    font-size: 60px;
+    color:  #df69b3;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    font-family: 'Great Vibes', cursive;
+}
+
+.footer-enlaces a{
+    color: white;
+}
+
+.enlaces-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.enlaces-footer__url{
+    text-align: initial;
+}
+
+.enlaces-footer__iconos{
+    text-align: end;
+}
+
+.enlaces-footer__url a{
+    color: white;
+}
+.enlaces-footer__iconos a img{
+    width: 20px;
+}
+.enlaces-footer__iconos .icono-face img{
+    width: 13px
+}
+
+.slide-servicio{
+    display: none;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+    .navbar-expand-lg .navbar-collapse{
+        border: none;
+    }   
+    .nav-enlaces{
+        display: none;
+    }
+    .navbar{
+        text-align: initial;
+        display: flex;
+    }
+    .main-banner__content{
+        height: 100%;
+    }
+    .main-banner__item{
+        height: 100%;
+    }
+    .main-banner__img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover ;
+    }
+    .main-banner .mask .main-banner__boxtext{
+        height: 100%;
+
+    }
+    .main-banner .mask .main-banner__text{
+        text-align: center;
+    }
+    .main-banner__title{
+        width: 100%;
+    }
+    .main-banner__title h1{
+        font-size: 2.5rem;
+    }
+    .btn-outline-secondary{
+        padding: .375rem .75rem;
+    }
+    .content__metodo-pago{
+        border: none;
+        text-align: center;
+    }
+    .content__metodo-pago img{
+        width: 90%;
+        margin: 0;
+    }
+    .content__seguros p{
+        text-align: center;
+        width: 90%;
+        margin: 38px auto;
+    }
+    .seguros__img{
+        grid-template-columns: 1fr 1fr;
+        width: 100%
+    }
+    .seguros__img img{
+        width: 150px;
+        margin: auto;
+    }
+    .servicios h3{
+        text-align: center;
+        margin: 30px auto;
+    }
+    .container-servicios{
+        display: none;
+    }
+    .slide-servicio{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .container-footer{
+        width: 90%;
+    }
+    .enlaces-footer__iconos a img{
+        width: 15px;
+    }
+    .enlaces-footer__iconos .icono-face img{
+        width: 10px
+    }
+    .slide-servicio .slick-prev{
+        left: -10px;
+        z-index: 1;
+    }
+    .slide-servicio .slick-next{
+        right: 0px;
+
+    }
+    .slide-servicio .slick-prev:before, .slide-servicio .slick-next:before {
+        font-size: 30px;
+    }
+    .navbar-nav{
+        display: inline-block;
+        padding: 10px;
+    }
+    .main-banner{
+        margin-top: 110px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-nav{
+        display: inline-block;
+        padding: 10px;
+	}
+    .navbar-expand-lg .navbar-collapse{
+        border: none;
+    }   
+    .nav-enlaces{
+        display: none;
+    }
+    .navbar{
+        text-align: initial;
+        display: flex;
+    }
+    .banner{
+        height: 320px !important;
+    }
+    .main-banner__content{
+        height: 65vh;
+    }
+    .main-banner__item{
+        height: 65vh;
+    }
+    .main-banner__img img{
+        width: 100%;
+        height: 65vh;
+    }
+    .main-banner .mask .main-banner__boxtext{
+        height: 100%;
+    }
+    .container-contamos{
+        grid-template-columns: 100%;
+        margin: 20px 0;
+    }
+    .content__metodo-pago{
+        border: none;
+        text-align: center;
+    }
+    .content__metodo-pago img{
+        width: 90%;
+        margin: 0;
+    }
+    .content__seguros p{
+        text-align: center;
+        width: 90%;
+        margin: 38px auto;
+    }
+    .seguros__img{
+        width: 100%
+    }
+    .seguros__img img{
+        margin: auto;
+    }
+    .container-servicios{
+        width: 100%;
+    }
+    .servicios h3{
+        width: 100%;
+    }
+    .cartas-servicio__text p{
+        margin: 0;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1024px){
+    .navbar-expand-lg .navbar-collapse{
+        width: 60%;
+    }
+    .nav-enlaces__url{
+        left: 60px;
+    }
+    .nav-enlaces__iconos{
+        right: 60px;
+    }
+    .cartas-programas__text p{
+        padding-left: 2px;
+    }
+    .content__metodo-pago{
+        text-align: center;
+    }
+    .content__metodo-pago img {
+        width: 400px;
+    }
+    .seguros__img img{
+        width: 150px;
+    }
+} 

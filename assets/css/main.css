@@ -1,0 +1,922 @@
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Regular.woff2') format('woff2'),
+        url('../fonts/Vision-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Vision-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Black.woff2') format('woff2'),
+        url('../fonts/Vision-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Heavy.woff2') format('woff2'),
+        url('../fonts/Vision-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Thin.woff2') format('woff2'),
+        url('../fonts/Vision-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Vision-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-LightItalic.woff2') format('woff2'),
+        url('../fonts/Vision-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Bold.woff2') format('woff2'),
+        url('../fonts/Vision-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Light.woff2') format('woff2'),
+        url('../fonts/Vision-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Vision-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-Italic.woff2') format('woff2'),
+        url('../fonts/Vision-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vision';
+    src: url('../fonts/Vision-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/Vision-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../fonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../fonts/GreatVibes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+background-color: #fff !important;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 5px;
+background: #9E9E9E;
+}
+  
+
+html{
+
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Vision';	
+}
+
+.bg-light{
+	background: white !important;
+}
+.nav-enlaces{
+	display: flex;
+}
+
+.nav-enlaces__url{
+	position: absolute;
+	left: 90px;
+}
+
+.nav-enlaces__url a{
+	color:  #df69b3;
+}
+
+.nav-enlaces__url a:hover{
+	text-decoration: none;
+}
+
+.nav-enlaces__iconos{
+	position: absolute;
+	right: 90px;
+}
+
+.navbar-brand{
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+}
+
+.navbar-light .navbar-brand{
+	color:  #df69b3;	
+	transition: 0.3s ease-in-out
+}
+
+.navbar{
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: fixed;
+    top: 0;
+	z-index: 99;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.navbar-expand-lg .navbar-collapse{
+	border-top: 1px solid #df69b3;
+    width: 50%;
+    margin: auto;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+a.nav-contacto{
+	color:  #df69b3 !important;
+	font-weight: bold;
+}
+
+.main-banner {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	margin-top: 125px;
+}
+
+.main-banner .main-banner__item {
+	position: relative;
+}
+
+.main-banner .mask {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-banner .mask .main-banner__boxtext {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80%;
+}
+.main-banner__img{
+	height: 100%;
+}
+.main-banner .mask .main-banner__text {
+	width: 88%;
+
+
+}
+.main-banner__title{
+	width: 50%;
+
+}
+
+.main-banner__title h1{
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+
+.boton-banner{
+	width: 50px;
+	height: 65px;
+	border-radius: 10px 0 0 10px;
+	background: white;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+
+.boton-banner a{
+	text-align: center
+}
+
+.boton-banner a img{
+	width: 60%;
+}
+
+.btn-outline-secondary{
+	color: white;
+	border-color: white;
+	padding: 7px 48px;
+    border-radius: 25px;
+}
+
+.container-kine{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	color: white
+
+}
+
+.content-kine__tittle h3{
+	font-size: 80px;
+	margin-bottom: 40px;
+	font-family: 'Great Vibes', cursive;
+
+}
+
+.content-kine__tittle {
+	width: 88%;
+}
+
+.content-kine__text{
+	width: 50%;
+	text-align: justify;
+	
+}
+
+.content-kine__text p{
+	line-height: 1.8rem;
+}
+
+.mision h3{
+	margin: 40px 0 40px 80px;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.container-mision{
+	display: inline-flex;
+	margin-bottom: 40px;
+}
+
+.text-mision{
+	width: 50%;
+	margin-left: 80px;
+}
+
+.boton-mision{
+	margin-left: 250px;
+}
+
+.boton-mision .btn-danger{
+	padding: 4px 50px;
+	border-radius: 20px;
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:focus, .btn-danger:not(:disabled):not(.disabled).active,
+ .btn-danger:not(:disabled):not(.disabled):active,
+ .show>.btn-danger.dropdown-toggle{
+	background: #df69b3;
+	border: none ;
+	font-weight: bold;
+}
+
+.container-programas{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+	border: none;
+}
+
+.cartas-programas__img{
+	height: 400px;
+}
+
+.cartas-programas__img img{
+	height: 100%;
+}
+
+.cartas-programas__text p{
+	position: absolute;
+    bottom: 49px;
+    left: 7px;
+    background: white;
+    color: black;
+    width: 90%;
+    padding: 3px;
+    padding-left: 35px;
+    border-radius: 0 10px 10px 0;
+}
+
+.cartas-programas__text a{
+	position: absolute;
+    bottom: 35px;
+    left: 7px;
+    background: #df69b3;
+    color: white;
+    width: 80%;
+    text-align: center;
+    padding: 3px;
+    border-radius: 0 10px 10px 0;
+}
+
+.cartas-programas__text a:hover{
+	text-decoration: none;
+}
+
+
+.container-contamos{
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.content__metodo-pago{
+    margin: auto;
+}
+
+.content__metodo-pago h3{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.content__metodo-pago img{
+    margin: 10px 50px;
+}
+
+.content__seguros p{
+    margin: 38px 0;
+}
+
+.seguros__img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+}
+
+.seguros__img img{
+    width: 200px;
+    margin: auto;
+}
+
+.seguros__img{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 80%;
+}
+
+.seguros__img img{
+	width: 200px;
+}
+.container-horario{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.text-horario{
+	width: 80%;
+	margin: auto;
+	color: white;
+
+}
+
+.text-horario h3{
+	font-size: 3.75rem;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.text-horario p{
+	font-size: 1.3rem;
+	margin: 0;
+}
+.form-horario{
+	width: 80%;
+	align-self: center;
+	text-align: end;
+    margin-top: 100px;
+
+}
+
+.form-control{
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+
+.form-horario .btn-danger{
+	padding: 5px 30px;
+	border-radius: 10px;
+}
+
+.container-servicios{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 90%;
+	margin: auto;
+}
+.cartas-servicios:hover{
+	transition: 0.3s ease-in-out;
+	opacity: 0.6;
+
+}
+.cartas-servicio__text {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+ .cartas-servicio__text p{
+ 	width: 60%;
+ 	text-align: center;
+ }
+
+ .servicios h3{
+ 	width: 87%;
+    margin: 50px auto;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.container-contactanos h3{
+	font-weight: bold;
+	font-size: 70px;
+	margin-bottom: 10px;
+	color: white;
+	margin: 40px 90px;
+	padding-top: 40px ;
+
+}
+
+.container-form{
+	width: 40%;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.container-form .btn-danger{
+	padding: 5px 35px;
+    border-radius: 10px;
+}
+
+.footer{
+	background: black;
+}
+
+
+.container-footer{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.container-footer h3{
+	font-size: 60px;
+	color:  #df69b3;
+	padding-bottom: 30px;
+	border-bottom: 1px solid white;
+	font-family: 'Great Vibes', cursive;
+}
+
+.footer-enlaces a{
+	color: white;
+}
+
+.enlaces-footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.enlaces-footer__url{
+	text-align: initial;
+}
+
+.enlaces-footer__iconos{
+	text-align: end;
+}
+
+.enlaces-footer__url a{
+	color: white;
+}
+.enlaces-footer__iconos a img{
+	width: 20px;
+}
+.enlaces-footer__iconos .icono-face img{
+	width: 13px
+}
+
+.slide-servicio{
+	display: none;
+}
+.slide-servicio .slick-prev:before, .slide-servicio .slick-next:before{
+	font-family: 'slick';
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: #df69b3;
+   
+}
+.slide-servicio .slick-prev {
+    left: -72px;
+}
+
+.form-control:focus{
+	border: none;
+	box-shadow: 0 0 0;
+}
+.navbar-light .navbar-toggler{
+	border: none;
+}
+button:focus{
+	outline: none;
+}
+
+@media (min-width: 992px){
+.container {
+   max-width: 100%;
+   }
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+	.main-banner{
+		margin-top: 110px;
+	}
+	.navbar-nav{
+		display: inline-block;
+		padding: 10px;
+	}
+	.navbar-expand-lg .navbar-collapse{
+		border: none;
+	}	
+	.nav-enlaces{
+		display: none;
+	}
+	.navbar{
+		text-align: initial;
+		display: flex;
+	}
+	.main-banner__content{
+		height: 100%;
+	}
+	.main-banner__item{
+		height: 100%;
+	}
+	.main-banner__img img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover ;
+	}
+	.main-banner .mask .main-banner__boxtext{
+		height: 100%;
+
+	}
+	.main-banner .mask .main-banner__text{
+		text-align: center;
+	}
+	.main-banner__title{
+		width: 100%;
+	}
+	.main-banner__title h1{
+		font-size: 2.5rem;
+	}
+	.btn-outline-secondary{
+		padding: .375rem .75rem;
+	}
+
+	.container-kine{
+		height: 650px !important;
+	}
+
+	.content-kine__tittle{
+		width: 100%;
+		padding: 30px;
+		text-align: justify;
+	}
+
+	.content-kine__tittle h3{
+		text-align: center;
+		margin-bottom: 0;
+	}	
+	.content-kine__text{
+		width: 100%;
+	}
+	.container-mision{
+		display: block;
+		text-align: justify;
+	}
+	.mision h3{
+		margin: 0;
+		text-align: center;
+		padding: 15px 0;
+		padding-top: 30px;
+	}
+	.text-mision{
+		width: 100%;
+		margin: 0;
+		padding: 30px;
+	}
+	.boton-mision{
+		text-align: center;
+		margin: 0;
+	}
+	.container-programas{
+		grid-template-columns: 100%;
+	}
+	.cartas-programas__img{
+		height: 350px;
+	}
+	.cartas-programas__text p{
+		padding-left: 30px;
+	}
+	.container-contamos{
+		grid-template-columns: 100%;
+		margin: 20px 0;
+	}
+	.content__metodo-pago{
+		border: none;
+		text-align: center;
+	}
+	.content__metodo-pago img{
+		width: 90%;
+		margin: 0;
+	}
+	.content__seguros p{
+		text-align: center;
+		width: 90%;
+    	margin: 38px auto;
+	}
+	.seguros__img{
+		grid-template-columns: 1fr 1fr;
+		width: 100%
+	}
+	.seguros__img img{
+		width: 150px;
+		margin: auto;
+	}
+	.container-horario{
+		grid-template-columns: 100%;
+	}
+	.text-horario{
+		text-align: center;
+	}
+	.text-horario h3{
+		font-size: 35px;
+	}
+	.form-horario{
+		align-self: normal;
+		text-align: center;
+		margin: auto;
+	}
+	.servicios h3{
+		text-align: center;
+		margin: 30px auto;
+	}
+	.container-servicios{
+		display: none;
+	}
+	.slide-servicio{
+		display: block;
+		padding-bottom: 20px;
+	}
+	.container-contactanos h3{
+		font-size: 35px;
+		text-align: center;
+		margin: 0;
+		padding: 30px;
+	}
+	.container-form{
+		width: 90%;
+		margin: auto;
+	}
+	.container-footer{
+		width: 90%;
+	}
+	.enlaces-footer__iconos a img{
+		width: 15px;
+	}
+	.enlaces-footer__iconos .icono-face img{
+		width: 10px
+	}
+	.slide-servicio .slick-prev{
+		left: -10px;
+		z-index: 1;
+	}
+	.slide-servicio .slick-next{
+		right: 0px;
+
+	}
+	.slide-servicio .slick-prev:before, .slide-servicio .slick-next:before {
+		font-size: 30px;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar-nav{
+		display: inline-block;
+		padding: 10px;
+	}
+	.text-horario h3{
+		font-size: 2.75rem;
+	}
+	.main-banner__title h1{
+		font-size: 45px;
+	}
+	.main-banner{
+		margin-top: 105px;
+	}
+	.navbar-expand-lg .navbar-collapse{
+		border: none;
+	}	
+	.nav-enlaces{
+		display: none;
+	}
+	.navbar{
+		text-align: initial;
+		display: flex;
+	}
+	.banner{
+		height: 320px !important;
+	}
+	.main-banner__content{
+		height: 65vh;
+	}
+	.main-banner__item{
+		height: 65vh;
+	}
+	.main-banner__img img{
+		width: 100%;
+		height: 65vh;
+	}
+	.main-banner .mask .main-banner__boxtext{
+		height: 100%;
+	}
+	.container-kine{
+		height: 400px !important;
+	}
+
+	.content-kine__tittle{
+		width: 100%;
+		padding: 30px;
+		text-align: justify;
+	}
+
+	.content-kine__tittle h3{
+		text-align: center;
+	}	
+	.content-kine__text{
+		width: 100%;
+	}
+	.mision h3{
+		margin: 25px 0;
+		text-align: center;
+	}
+	.text-mision{
+		text-align: justify;
+		margin-left: 50px;
+		width: 100%;
+	}
+	.boton-mision{
+		align-self: center;
+		margin: 0 45px;
+	}
+	.container-programas{
+		grid-template-columns: 1fr 1fr;
+	}
+	.container-contamos{
+		grid-template-columns: 100%;
+		margin: 20px 0;
+	}
+	.content__metodo-pago{
+		border: none;
+		text-align: center;
+	}
+	.content__metodo-pago img{
+		width: 90%;
+		margin: 0;
+	}
+	.content__seguros p{
+		text-align: center;
+		width: 90%;
+    	margin: 38px auto;
+	}
+	.seguros__img{
+		width: 100%
+	}
+	.seguros__img img{
+		margin: auto;
+	}
+	.container-servicios{
+		width: 100%;
+	}
+	.servicios h3{
+		width: 100%;
+	}
+	.cartas-servicio__text p{
+		margin: 0;
+		font-size: 13px;
+	}
+	.container-contactanos h3{
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1024px){
+	.navbar-expand-lg .navbar-collapse{
+		width: 60%;
+	}
+	.nav-enlaces__url{
+		left: 60px;
+	}
+	.nav-enlaces__iconos{
+		right: 60px;
+	}
+	.mision h3{
+		margin: 40px 0 40px 60px;
+	}
+	.text-mision{
+		margin-left: 60px;
+	}
+	.boton-mision{
+		margin-left: 180px;
+	}
+	.cartas-programas__text p{
+		padding-left: 2px;
+	}
+	.content__metodo-pago{
+		text-align: center;
+	}
+	.content__metodo-pago img {
+		width: 400px;
+	}
+	.seguros__img img{
+		width: 150px;
+	}
+	.container-contactanos h3{
+		font-size: 55px;
+	}
+	.main-banner .mask .main-banner__boxtext{
+		height: 55% !important;
+	}
+}
